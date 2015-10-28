@@ -1,0 +1,13 @@
+C:\Users\Ace\Documents\Visual Studio 2015\Projects\CrossoverTask\MockService\obj\Debug\MockService.csprojResolveAssemblyReference.cache
+C:\Users\Ace\Documents\Visual Studio 2015\Projects\CrossoverTask\MockService\bin\Debug\MockService.exe.config
+C:\Users\Ace\Documents\Visual Studio 2015\Projects\CrossoverTask\MockService\bin\Debug\MockService.exe
+C:\Users\Ace\Documents\Visual Studio 2015\Projects\CrossoverTask\MockService\bin\Debug\MockService.pdb
+C:\Users\Ace\Documents\Visual Studio 2015\Projects\CrossoverTask\MockService\bin\Debug\Aspose.Pdf.dll
+C:\Users\Ace\Documents\Visual Studio 2015\Projects\CrossoverTask\MockService\bin\Debug\CrossoverTask.Data.dll
+C:\Users\Ace\Documents\Visual Studio 2015\Projects\CrossoverTask\MockService\bin\Debug\EntityFramework.dll
+C:\Users\Ace\Documents\Visual Studio 2015\Projects\CrossoverTask\MockService\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ace\Documents\Visual Studio 2015\Projects\CrossoverTask\MockService\bin\Debug\CrossoverTask.Data.pdb
+C:\Users\Ace\Documents\Visual Studio 2015\Projects\CrossoverTask\MockService\bin\Debug\EntityFramework.xml
+C:\Users\Ace\Documents\Visual Studio 2015\Projects\CrossoverTask\MockService\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ace\Documents\Visual Studio 2015\Projects\CrossoverTask\MockService\obj\Debug\MockService.exe
+C:\Users\Ace\Documents\Visual Studio 2015\Projects\CrossoverTask\MockService\obj\Debug\MockService.pdb

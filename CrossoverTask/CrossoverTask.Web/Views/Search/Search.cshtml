@@ -1,0 +1,133 @@
+﻿@model CrossoverTask.Web.Models.SearchViewModel   
+<h2>Build search query</h2>
+
+@if (ViewBag.Msg != null)
+{
+    <div class="alert alert-success" role="alert">
+        <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+        <span class="sr-only">Error:</span>
+        @ViewBag.Msg
+    </div>
+}
+
+@if (ViewBag.ErrorMsg != null)
+{
+    <div class="alert alert-danger" role="alert">
+        <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+        <span class="sr-only">Error:</span>
+        @ViewBag.ErrorMsg
+    </div>
+}
+
+
+
+@using (Html.BeginForm("Search", "Search", null, FormMethod.Post, new { id = "searchParams", name = "searchParams", @class = "form-horizontal" }))
+{
+    <fieldset>
+        <div class="form-group">
+            <div class="form-group">
+                @Html.LabelFor(m => m.Email, new { @class = "col-md-2 control-label" })
+                <div class="col-md-10">
+                    @Html.TextBoxFor(m => m.Email, new { @class = "form-control input-md" })
+                    @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="form-group">
+                @Html.LabelFor(m => m.FirstName, new { @class = "col-md-2 control-label" })
+                <div class="col-md-10">
+                    @Html.TextBoxFor(m => m.FirstName, new { @class = "form-control input-md" })
+                   @Html.ValidationMessageFor(m => m.FirstName, "", new { @class = "text-danger" })
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="form-group">
+                @Html.LabelFor(m => m.LastName, new { @class = "col-md-2 control-label" })
+                <div class="col-md-10">
+                    @Html.TextBoxFor(m => m.LastName, new { @class = "form-control input-md" })
+                    @Html.ValidationMessageFor(m => m.LastName, "", new { @class = "text-danger" })
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="form-group">
+                @Html.LabelFor(m => m.Gender, new { @class = "col-md-2 control-label" })
+                <div class="col-md-10">
+                    @Html.EnumDropDownListFor(m => m.Gender, new { @class = "form-control input-md" })
+                    @Html.ValidationMessageFor(m => m.Gender, "", new { @class = "text-danger" })
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="form-group">
+                @Html.LabelFor(m => m.MaxResults, new { @class = "col-md-2 control-label" })
+                <div class="col-md-10">
+                    <input id="MaxResults" name="MaxResults" type="number" min=1 step="1" class="form-control input-mini search-criteria">
+                    @Html.ValidationMessageFor(m => m.MaxResults, "", new { @class = "text-danger" })
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="form-group">
+                @Html.LabelFor(m => m.MinAge, new { @class = "col-md-2 control-label" })
+                <div class="col-md-10">
+                    <input id="MinAge" name="MinAge" type="number" min=0 step="1" class="form-control input-mini search-criteria">
+                    @Html.ValidationMessageFor(m => m.MinAge, "", new { @class = "text-danger" })
+                </div>
+            </div>
+        </div>
+        <div class="form-group">            
+            <div class="form-group">
+                @Html.LabelFor(m => m.MaxAge, new { @class = "col-md-2 control-label" })
+                <div class="col-md-10">
+                    <input id="MaxAge" name="MaxAge" type="number" min=0 step="1" class="form-control input-mini search-criteria">
+                    @Html.ValidationMessageFor(m => m.MaxAge, "", new { @class = "text-danger" })
+                </div>
+            </div>
+        </div>
+        <div class="form-group">            
+            <div class="form-group">
+                @Html.LabelFor(m => m.MinHeight, new { @class = "col-md-2 control-label" })
+                <div class="col-md-10">
+                    <input id="MinHeight" name="MinHeight" type="number" min=0 step="0.01" class="form-control input-mini search-criteria">
+                    @Html.ValidationMessageFor(m => m.MinHeight, "", new { @class = "text-danger" })
+                </div>
+            </div>
+        </div>
+        <div class="form-group">            
+            <div class="form-group">
+                @Html.LabelFor(m => m.MaxHeight, new { @class = "col-md-2 control-label" })
+                <div class="col-md-10">
+                    <input id="MaxHeight" name="MaxHeight" type="number" min=0 step="0.01" class="form-control input-mini search-criteria">
+                    @Html.ValidationMessageFor(m => m.MaxHeight, "", new { @class = "text-danger" })
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">            
+            <div class="form-group">
+                @Html.LabelFor(m => m.MinWeight, new { @class = "col-md-2 control-label" })
+                <div class="col-md-10">
+                    <input id="MinWeight" name="MinWeight" type="number" min=0 step="0.01" class="form-control input-mini search-criteria">
+                    @Html.ValidationMessageFor(m => m.MinWeight, "", new { @class = "text-danger" })
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">            
+            <div class="form-group">
+                @Html.LabelFor(m => m.MaxWeight, new { @class = "col-md-2 control-label" })
+                <div class="col-md-10">
+                    <input id="MaxWeight" name="MaxWeight" type="number" min=0 step="0.01" class="form-control input-mini search-criteria">
+                    @Html.ValidationMessageFor(m => m.MaxWeight, "", new { @class = "text-danger" })
+                </div>
+            </div>
+        </div>
+        
+        <button type="submit" class="btn btn-success">Search</button>
+    </fieldset>
+
+}
+

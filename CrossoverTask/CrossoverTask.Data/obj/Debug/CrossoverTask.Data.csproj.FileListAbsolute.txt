@@ -1,0 +1,13 @@
+C:\Users\Ace\Documents\Visual Studio 2015\Projects\CrossoverTask\CrossoverTask.Data\bin\Debug\CrossoverTask.Data.dll.config
+C:\Users\Ace\Documents\Visual Studio 2015\Projects\CrossoverTask\CrossoverTask.Data\bin\Debug\CrossoverTask.Data.dll
+C:\Users\Ace\Documents\Visual Studio 2015\Projects\CrossoverTask\CrossoverTask.Data\bin\Debug\CrossoverTask.Data.pdb
+C:\Users\Ace\Documents\Visual Studio 2015\Projects\CrossoverTask\CrossoverTask.Data\bin\Debug\EntityFramework.dll
+C:\Users\Ace\Documents\Visual Studio 2015\Projects\CrossoverTask\CrossoverTask.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ace\Documents\Visual Studio 2015\Projects\CrossoverTask\CrossoverTask.Data\bin\Debug\EntityFramework.xml
+C:\Users\Ace\Documents\Visual Studio 2015\Projects\CrossoverTask\CrossoverTask.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ace\Documents\Visual Studio 2015\Projects\CrossoverTask\CrossoverTask.Data\obj\Debug\CrossoverTask.Data.csprojResolveAssemblyReference.cache
+C:\Users\Ace\Documents\Visual Studio 2015\Projects\CrossoverTask\CrossoverTask.Data\obj\Debug\CrossoverTask.Data.Migrations.InitialSeed.resources
+C:\Users\Ace\Documents\Visual Studio 2015\Projects\CrossoverTask\CrossoverTask.Data\obj\Debug\CrossoverTask.Data.csproj.GenerateResource.Cache
+C:\Users\Ace\Documents\Visual Studio 2015\Projects\CrossoverTask\CrossoverTask.Data\obj\Debug\CrossoverTask.Data.dll
+C:\Users\Ace\Documents\Visual Studio 2015\Projects\CrossoverTask\CrossoverTask.Data\obj\Debug\CrossoverTask.Data.pdb
+C:\Users\Ace\Documents\Visual Studio 2015\Projects\CrossoverTask\CrossoverTask.Data\obj\Debug\CrossoverTask.Data.Migrations.fixingBadData.resources

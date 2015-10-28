@@ -1,0 +1,13 @@
+C:\Users\Ace\Documents\Visual Studio 2015\Projects\CrossoverTask\CrossoverTask.Service\bin\Debug\CrossoverTask.Service.dll.config
+C:\Users\Ace\Documents\Visual Studio 2015\Projects\CrossoverTask\CrossoverTask.Service\bin\Debug\CrossoverTask.Service.dll
+C:\Users\Ace\Documents\Visual Studio 2015\Projects\CrossoverTask\CrossoverTask.Service\bin\Debug\CrossoverTask.Service.pdb
+C:\Users\Ace\Documents\Visual Studio 2015\Projects\CrossoverTask\CrossoverTask.Service\bin\Debug\Aspose.Pdf.dll
+C:\Users\Ace\Documents\Visual Studio 2015\Projects\CrossoverTask\CrossoverTask.Service\bin\Debug\CrossoverTask.Data.dll
+C:\Users\Ace\Documents\Visual Studio 2015\Projects\CrossoverTask\CrossoverTask.Service\bin\Debug\EntityFramework.dll
+C:\Users\Ace\Documents\Visual Studio 2015\Projects\CrossoverTask\CrossoverTask.Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ace\Documents\Visual Studio 2015\Projects\CrossoverTask\CrossoverTask.Service\bin\Debug\CrossoverTask.Data.pdb
+C:\Users\Ace\Documents\Visual Studio 2015\Projects\CrossoverTask\CrossoverTask.Service\bin\Debug\EntityFramework.xml
+C:\Users\Ace\Documents\Visual Studio 2015\Projects\CrossoverTask\CrossoverTask.Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ace\Documents\Visual Studio 2015\Projects\CrossoverTask\CrossoverTask.Service\obj\Debug\CrossoverTask.Service.csprojResolveAssemblyReference.cache
+C:\Users\Ace\Documents\Visual Studio 2015\Projects\CrossoverTask\CrossoverTask.Service\obj\Debug\CrossoverTask.Service.dll
+C:\Users\Ace\Documents\Visual Studio 2015\Projects\CrossoverTask\CrossoverTask.Service\obj\Debug\CrossoverTask.Service.pdb
